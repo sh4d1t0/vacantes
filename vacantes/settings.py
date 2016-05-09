@@ -80,13 +80,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vacantes_db',
-        'USER': 'victor'
+        'USER': 'victor',
         'PASSWORD': 'kaliman14'
     },
     'itpeopleone':{
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'itpeocom_po',
-        'USER': 'victor'
+        'USER': 'victor',
         'PASSWORD': 'kaliman14'
     }
 }
