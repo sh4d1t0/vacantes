@@ -95,7 +95,7 @@ DATABASES = {
     },
     'itpeopleone':{
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'itpeocom_po',
+        'NAME': 'peopleweb',
         'USER': 'victor',
         'PASSWORD': 'kaliman14'
     }
