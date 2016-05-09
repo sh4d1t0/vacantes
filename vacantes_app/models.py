@@ -13,7 +13,7 @@ class Vacantes(models.Model):
 	)
 	is_active = models.BooleanField()
 	position = models.CharField(max_length=150)
-	descripion = HTMLField()
+	description = HTMLField()
 	skills = HTMLField()
 	lang = models.CharField(max_length=5, choices=LANGUAGES)
 	date = models.DateTimeField()
