@@ -8,8 +8,8 @@ from tinymce.models import HTMLField
 
 class Vacantes(models.Model):
 	LANGUAGES = (
-	    ('es', u'Español'),
-	    ('en', u'Inglés'),
+	    ('es', 'es'),
+	    ('en', 'en'),
 	)
 	is_active = models.BooleanField()
 	position = models.CharField(max_length=150)
