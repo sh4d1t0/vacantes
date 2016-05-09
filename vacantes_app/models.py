@@ -16,7 +16,7 @@ class Vacantes(models.Model):
 	description = HTMLField()
 	skills = HTMLField()
 	lang = models.CharField(max_length=5, choices=LANGUAGES)
-	date = models.DateTimeField(blank=True)
+	date = models.DateTimeField(blank=True, null=True)
 
 	def __unicode__(self):
 		return self.position
