@@ -12,10 +12,10 @@ class Vacantes(models.Model):
 	    ('en', u'Inglés'),
 	)
 	is_active = models.BooleanField()
-	position = models.CharField()
+	position = models.CharField(max_length=150)
 	descripion = HTMLField()
 	skills = HTMLField()
-	lang = models.CharField(max_length=1, choices=LANGUAGES)
+	lang = models.CharField(max_length=5, choices=LANGUAGES)
 	date = models.DateTimeField()
 
 	class Meta:
