@@ -18,5 +18,8 @@ class Vacantes(models.Model):
 	lang = models.CharField(max_length=5, choices=LANGUAGES)
 	date = models.DateTimeField()
 
+	def __unicode__(self):
+		return self.position
+
 	class Meta:
 		db_table = 'po_vacancy'
